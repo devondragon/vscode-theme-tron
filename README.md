@@ -11,6 +11,11 @@ Welcome to the Tron Legacy Theme for Visual Studio Code! This theme is inspired 
 
 ## Installation
 
+### Install from the Marketplace Page
+[Tron Legacy Theme on the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=DigitalSanctuary.tron-legacy-theme)
+
+### Install from within VS Code
+
 1. Open the Extensions view in VSCode by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
 2. Search for "Tron Legacy Theme".
 3. Click on the "Install" button.
