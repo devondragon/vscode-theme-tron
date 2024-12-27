@@ -2,7 +2,7 @@
 	"name": "tron-legacy-theme",
 	"displayName": "Tron Legacy Theme",
 	"description": "A futuristic VSCode theme (light and dark) inspired by the iconic visuals of Tron Legacy. Featuring sleek neon colors and a clean interface for developers who love clean futuristic aesthetics.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "DigitalSanctuary",
 	"author": {
 		"name": "Devon Hillard",
