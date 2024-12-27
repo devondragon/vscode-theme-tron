@@ -1,0 +1,80 @@
+{
+	"name": "tron-legacy-theme",
+	"displayName": "Tron Legacy Theme",
+	"description": "A futuristic VSCode theme (light and dark) inspired by the iconic visuals of Tron Legacy. Featuring sleek neon colors and a clean interface for developers who love clean futuristic aesthetics.",
+	"version": "0.0.1",
+	"publisher": "DigitalSanctuary",
+	"author": {
+		"name": "Devon Hillard",
+		"email": "devon@digitalsanctuary.com",
+		"url": "https://digitalsanctuary.com"
+	},
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"tron",
+		"sci-fi",
+		"dark theme",
+		"light theme",
+		"futuristic"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tron Legacy Theme Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tron-legacy-color-theme.json"
+			},
+			{
+				"label": "Tron Legacy Theme Light",
+				"uiTheme": "vs",
+				"path": "./themes/tron-legacy-light-color-theme.json"
+			}
+		]
+	},
+	"galleryBanner": {
+		"color": "#00F6FF",
+		"theme": "dark"
+	},
+	"icon": "images/icon.png",
+	"screenshots": [
+		{
+			"path": "images/screenshot-dark.png",
+			"description": "Tron Legacy Dark Theme in action"
+		},
+		{
+			"path": "images/screenshot-light.png",
+			"description": "Tron Legacy Light Theme in action"
+		}
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/devondragon/vscode-theme-tron/issues",
+		"email": "devon@digitalsanctuary.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/devondragon/vscode-theme-tron.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"__metadata": {
+		"size": 3630,
+		"isApplicationScoped": false,
+		"installedTimestamp": 1735244336156,
+		"pinned": true,
+		"source": "vsix"
+	}
+}
