@@ -1,0 +1,14 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.vscodeignore
+vsc-extension-quickstart.md
+**/.DS_Store
+*.vsix
+
+# Internal development notes — not for end users
+CLAUDE.md
+
+# Referenced only from CHANGELOG.md, which vsce rewrites to absolute
+# github.com/.../raw/HEAD/ URLs, so these are fetched from the repo instead.
+images/compare-*.png
